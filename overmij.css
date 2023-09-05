@@ -1,0 +1,84 @@
+.nav-link{
+    color:  black;
+}
+.nav-link:hover{
+    color: rgb(122, 113, 113);
+}
+.body{
+    padding: 13%;
+    margin: 0%;
+}
+
+
+.text1{
+    position: absolute;
+    text-align: center;
+    left: 1450px;
+    top: 150px;
+    height: 10px;
+    width: 375px;
+}
+
+.titel1{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    height: 10px;
+    width: 350px;
+}
+
+.text2{
+    position: absolute;
+    text-align: center;
+    left: 75px;
+    top: 650px;
+    height: 10px;
+    width: 375px;
+}
+
+.titel2{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    height: 10px;
+    width: 350px;
+}
+
+.text3{
+    position: absolute;
+    left: 1450px;
+    top: 1200px;
+    height: 10px;
+    width: 375px;
+}
+
+.titel3{
+    position: absolute;
+    left: 50px;
+    top: -50px;
+    height: 10px;
+    width: 350px;
+}
+.foto1{
+    position: absolute;
+    left: 50px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.muziek{
+    position: absolute;
+    text-align: center;
+    left: 1500px;
+    top: 750px;
+
+}
+
+.plaatje2{
+    position: absolute;
+    left: 75px;
+    top: 1350px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
