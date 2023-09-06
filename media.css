@@ -48,7 +48,9 @@
 .foto1{
     position: absolute;
     left: 250px;
-   
+    top: 175px;
+   height: 300px;
+   box-shadow:  2px 2px 4px #000000;
 }
 
 .muziek{
