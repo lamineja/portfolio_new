@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 // Schrijf een query: select * from projecten
-$sql = "SELECT * FROM Projecten";
+$sql = "SELECT * FROM Projecten_new";
 $result = $conn->query($sql);
 ?>
 
@@ -32,7 +32,7 @@ $result = $conn->query($sql);
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="index.html" class="nav-link " aria-current="page">Home</a></li>
             <li class="nav-item"><a href="overmij.html" class="nav-link">Over mij</a></li>
-            <li class="nav-item"><a href="project.html" class="nav-link active bg-secondary">Projecten</a></li>
+            <li class="nav-item"><a href="projecten.php" class="nav-link active bg-secondary">Projecten</a></li>
             <li class="nav-item"><a href="contact.html" class="nav-link ">Contact</a></li>
             <li class="nav-item"><a href="media.html" class="nav-link ">Media (voor de opdracht)</a></li>
         </ul>
@@ -49,11 +49,11 @@ $result = $conn->query($sql);
                     ?>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="<?php echo $row['Afbeelding']; ?>" class="card-img-top" alt="Image">
+                            <img src="<?php echo $row['Foto']; ?>" class="card-img-top" alt="Image">
                             <div class="card-body">
                                 <p class="card-text"><?php echo $row['Beschrijving']; ?></p>
                                 <div class="btn-group">
-                                    <a href="<?php echo $row['ProjectURL']; ?>" class="btn btn-sm btn-outline-secondary">Bekijken</a>
+                                    <a href="<?php echo $row['Link']; ?>" class="btn btn-sm btn-outline-secondary">Bekijken</a>
                                 </div>
                             </div>
                         </div>
