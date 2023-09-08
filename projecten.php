@@ -69,7 +69,7 @@ $result = $conn->query($sql);
     <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
         <div class="col-md-1 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+            <span class="mb-3 mb-md-0 text-body-secondary">© Lamine Fadiga</span>
         </div>
     </footer>
 </body>

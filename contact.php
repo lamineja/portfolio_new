@@ -24,14 +24,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $verzonden_naar_gebruiker = mail($email, $gebruiker_onderwerp, $gebruiker_bericht);
 
     if ($verzonden_naar_ontvanger && $verzonden_naar_gebruiker) {
-        echo "Bedankt voor je bericht. We hebben je een kopie van het bericht gestuurd. We nemen zo snel mogelijk contact met je op.";
+        // Toon de pop-up na het versturen van de e-mails
+        echo '<script>alert("We hebben je gegevens ontvangen. Bedankt voor je bericht!");</script>';
     } else {
         echo "Er is een probleem opgetreden bij het verzenden van het bericht. Probeer het later opnieuw.";
     }
 
-header("Location: https://88683.stu.sd-lab.nl/intro/");
+    // Redirect naar een andere pagina
+    header("Location: https://88683.stu.sd-lab.nl/intro/");
     exit();
 }
-
-
-?>
